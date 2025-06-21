@@ -166,7 +166,7 @@ blockquote {
   overflow: auto;
   overflow: hidden;
   overflow-y: auto;
-  border: 1px solid rgba(4, 0, 255, 0.308);
+  /* border: 1px solid rgba(4, 0, 255, 0.308); */
 }
 
 .box1 {
