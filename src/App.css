@@ -1,0 +1,182 @@
+* {
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mother {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* border: 1px red solid; */
+}
+.herotx {
+  text-align: center;
+  font-size: 40px;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: sans-serif;
+}
+
+.herotx2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.herotx3 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: -80px;
+  padding: 2rem;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+body {
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  /* background-color: #3f3f3f; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* tengah secara horizontal */
+  align-items: center; /* tengah secara vertical */
+  /* border: red 1px solid; */
+}
+
+.main {
+  text-align: center;
+  font-size: 30px;
+  /* width: 1000px;
+  max-width: 1000px; */
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  /* border: solid 1px blueviolet; */
+}
+
+.main2 {
+  height: auto;
+
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+.hero {
+  height: 50px;
+  width: 100vw;
+  /* border: 1px solid red; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #bdbdbd; /* atau warna lain supaya tak tembus */
+  z-index: 1000; /* pastikan duduk atas elemen lain */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 1.2);
+}
+.hero0 {
+  display: flex;
+  flex-direction: row;
+}
+.hero1 {
+  height: 50px;
+  width: 300px;
+  /* border: 1px solid blue; */
+}
+.hero2 {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(255, 0, 221); */
+}
+.head1 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  color: #000;
+}
+.tx {
+  color: black;
+  font-weight: 300;
+}
+.bckpic {
+  width: 100%;
+  height: 350px;
+  /* border: 1px solid green; */
+}
+
+.fb-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.social-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.tiktok-section {
+  width: 100%;
+  max-width: 800px;
+  /* border: 1px solid red; */
+}
+
+.fb-section {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 251, 0, 0.308);
+}
+
+.ig-section {
+  width: 100%;
+  height: 400px;
+  max-width: 800px;
+  overflow: auto;
+  overflow: hidden;
+  border: 1px solid rgba(4, 0, 255, 0.308);
+}
+
+.box1 {
+  height: 400px;
+}
+.box2 {
+  height: 400px;
+  background-color: rgb(41, 41, 41);
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+  }
+
+  .herotx {
+    font-size: 24px;
+  }
+}
