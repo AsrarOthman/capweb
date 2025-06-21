@@ -75,6 +75,7 @@ const SocialFeed = () => {
             scrolling="no"
             allowtransparency="true"
             title="Instagram Profile"
+            sandbox="allow-scripts allow-same-origin allow-popups"
           ></iframe>
         </div>
 
