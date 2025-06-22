@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .mother {
   display: flex;
@@ -102,12 +105,15 @@ h1 {
   /* border: 1px solid rgb(255, 0, 221); */
 }
 .head1 {
+  width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-around;
   padding-top: 10px;
   color: #000;
+  /* border: solid 1px green; */
 }
 .tx {
   color: black;
@@ -170,13 +176,17 @@ blockquote {
 }
 
 .box1 {
-  height: 400px;
+  padding: 30px;
 }
 .box2 {
   height: 400px;
   background-color: rgb(41, 41, 41);
 }
-
+.contect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 @media (max-width: 1000px) {
   .main {
     width: 100%;

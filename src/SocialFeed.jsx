@@ -37,7 +37,7 @@ const SocialFeed = () => {
 
   return (
     <div className="social-feed">
-      <h2>Sosial Media</h2>
+      <h4 style={{ marginTop: "40px", fontSize: "40px" }}>Media Social</h4>
 
       {/* TikTok Embed */}
       <div className="tiktok-section">

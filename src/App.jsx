@@ -21,17 +21,25 @@ function App() {
           <div className="hero2">
             <div className="head1">
               <div>
-                <a className="tx">Home</a>
+                <a href="#" className="tx">
+                  Home
+                </a>
               </div>
               <div>
-                <a className="tx">Service</a>
+                <a href="#ser" className="tx">
+                  Service
+                </a>
               </div>
               <div>
-                <a className="tx">Media Social</a>
+                <a href="#ms" className="tx">
+                  Media Social
+                </a>
               </div>
 
-              <a className="tx">Contect</a>
-              <a className="tx">Reveiw</a>
+              <a href="#us" className="tx">
+                Contact Us
+              </a>
+              {/* <a className="tx">Reveiw</a> */}
             </div>
           </div>
         </div>
@@ -40,6 +48,7 @@ function App() {
       <div className="bckpic">
         <BackgroundSlider />
       </div>
+      <div id="ser"></div>
       <div className="main">
         <div>
           {/* <h1 className="herotx">CAPTAIN MOBILE KUANTAN </h1> */}
@@ -75,6 +84,7 @@ function App() {
               />
             </div>
           </div>
+          <div id="ms"></div>
           <div
             style={{
               border: "2px solidrgb(168, 168, 168) ",
@@ -82,7 +92,7 @@ function App() {
             }}
           >
             <SocialFeed />
-            <h4 style={{ marginTop: "40px" }}>Facebook</h4>
+            <h4 style={{ margin: "30px" }}>Facebook</h4>
             <div>
               <a
                 href="https://www.facebook.com/captainmobile.kuantan"
@@ -102,8 +112,97 @@ function App() {
               </a>
             </div>
           </div>
-          <div className="box1">Contect</div>
-          <div className="box2">Reveiw</div>
+          <div id="us" className="box1">
+            <h4 style={{ margin: "30px" }}>Contact Us</h4>
+
+            <div className="contect">
+              <div className="my-card">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7961.848750113491!2d103.303286!3d3.826388!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c8bb7359e55845%3A0xa025edb704ea97ea!2sCaptain%20Mobile%20Kuantan%20-%20Kedai%20iPhone%20dan%20Android%20%2C%20Gadget%20%26%20Repair%20Phone%20%2C%20LCD%20%2C%20Screen%20%2C%20Battery!5e0!3m2!1sen!2smy!4v1750583096683!5m2!1sen!2smy"
+                  width="100%"
+                  height="200"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+
+                <h4
+                  style={{ color: "black", fontSize: "24px", padding: "20px" }}
+                >
+                  Cawangan Kuantan
+                </h4>
+                <p
+                  style={{ color: "black", fontSize: "20px", padding: "20px" }}
+                >
+                  Singgah la ke cawangan kami di Kuantan — kami sedia bantu anda
+                  dengan senyuman 😊
+                </p>
+                <a
+                  href="https://kuantan.captainmobile.my/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    className="my-card-btn"
+                    style={{ marginBottom: "30px" }}
+                  >
+                    Pertanyaan
+                  </button>
+                </a>
+              </div>
+              <div className="my-card">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7961.848750113491!2d103.303286!3d3.826388!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c8bb7359e55845%3A0xa025edb704ea97ea!2sCaptain%20Mobile%20Kuantan%20-%20Kedai%20iPhone%20dan%20Android%20%2C%20Gadget%20%26%20Repair%20Phone%20%2C%20LCD%20%2C%20Screen%20%2C%20Battery!5e0!3m2!1sen!2smy!4v1750583096683!5m2!1sen!2smy"
+                  width="100%"
+                  height="200"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+
+                <h4
+                  style={{ color: "black", fontSize: "24px", padding: "20px" }}
+                >
+                  Cawangan Kemaman
+                </h4>
+                <p
+                  style={{ color: "black", fontSize: "20px", padding: "20px" }}
+                >
+                  Mari singgah ke cawangan kitorang di Kemaman, dok jauh pun —
+                  hok molek ado belako!
+                </p>
+                <a
+                  href="https://kuantan.captainmobile.my/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    className="my-card-btn"
+                    style={{ marginBottom: "30px" }}
+                  >
+                    Pertanyaan
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{
+              color: "white",
+              fontSize: "10px",
+              marginBottom: "20px",
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "30px",
+            }}
+          >
+            Copyright © 2025 - Captain Mobile. Semua hak cipta dilindungi.
+          </div>
+
+          {/* <div className="box2">Reveiw</div> */}
         </div>
       </div>
     </div>

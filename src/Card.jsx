@@ -8,7 +8,9 @@ const Card = ({ title, image, description }) => {
       <div className="my-card-body">
         <h3 className="my-card-title">{title}</h3>
         <p className="my-card-desc">{description}</p>
-        <button className="my-card-btn">Baca Lagi</button>
+        <a href="#us">
+          <button className="my-card-btn">Contact Us</button>
+        </a>
       </div>
     </div>
   );
